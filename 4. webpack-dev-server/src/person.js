@@ -1,0 +1,11 @@
+export default class Person {
+    constructor(name, age, country) {
+        this.name = name;
+        this.age = age;
+        this.country = country;
+    }
+    
+    name() {
+        return this.name;
+    }
+}
